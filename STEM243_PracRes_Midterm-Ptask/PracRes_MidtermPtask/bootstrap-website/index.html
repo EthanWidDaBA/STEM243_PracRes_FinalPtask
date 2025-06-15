@@ -8,33 +8,35 @@
     <link rel="stylesheet" href="css/styles.css">
     <!-- Add this right after <html> -->
     <script>
-      // Create loader element
-      var loader = document.createElement('div');
-      loader.id = 'loader';
-      loader.style.position = 'fixed';
-      loader.style.left = 0;
-      loader.style.top = 0;
-      loader.style.right = 0;
-      loader.style.bottom = 0;
-      loader.style.background = '#fff';
-      loader.style.display = 'flex';
-      loader.style.alignItems = 'center';
-      loader.style.justifyContent = 'center';
-      loader.style.zIndex = 9999;
-      loader.innerHTML = '<div style="border:8px solid #f3f3f3;border-top:8px solid #3498db;border-radius:50%;width:60px;height:60px;animation:spin 1s linear infinite;"></div><style>@keyframes spin{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}</style>';
-      document.body.appendChild(loader);
+document.addEventListener('DOMContentLoaded', function() {
+  // Create loader element
+  var loader = document.createElement('div');
+  loader.id = 'loader';
+  loader.style.position = 'fixed';
+  loader.style.left = 0;
+  loader.style.top = 0;
+  loader.style.right = 0;
+  loader.style.bottom = 0;
+  loader.style.background = '#fff';
+  loader.style.display = 'flex';
+  loader.style.alignItems = 'center';
+  loader.style.justifyContent = 'center';
+  loader.style.zIndex = 9999;
+  loader.innerHTML = '<div style="border:8px solid #f3f3f3;border-top:8px solid #3498db;border-radius:50%;width:60px;height:60px;animation:spin 1s linear infinite;"></div><style>@keyframes spin{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}</style>';
+  document.body.appendChild(loader);
 
-      // Ensure loader stays for at least 3 seconds
-      var minTime = 3000;
-      var start = Date.now();
+  // Ensure loader stays for at least 3 seconds
+  var minTime = 3000;
+  var start = Date.now();
 
-      window.addEventListener('load', function() {
-        var elapsed = Date.now() - start;
-        var remaining = minTime - elapsed;
-        setTimeout(function() {
-          if (loader.parentNode) loader.parentNode.removeChild(loader);
-        }, remaining > 0 ? remaining : 0);
-      });
+  window.addEventListener('load', function() {
+    var elapsed = Date.now() - start;
+    var remaining = minTime - elapsed;
+    setTimeout(function() {
+      if (loader.parentNode) loader.parentNode.removeChild(loader);
+    }, remaining > 0 ? remaining : 0);
+  });
+});
     </script>
     <style>
       body {
