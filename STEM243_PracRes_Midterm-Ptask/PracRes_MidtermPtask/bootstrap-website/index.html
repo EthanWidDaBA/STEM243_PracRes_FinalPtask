@@ -17,12 +17,18 @@ document.addEventListener('DOMContentLoaded', function() {
   loader.style.top = 0;
   loader.style.right = 0;
   loader.style.bottom = 0;
-  loader.style.background = '#fff';
+  loader.style.background = '#000';
   loader.style.display = 'flex';
   loader.style.alignItems = 'center';
   loader.style.justifyContent = 'center';
   loader.style.zIndex = 9999;
-  loader.innerHTML = '<div style="border:8px solid #f3f3f3;border-top:8px solid #3498db;border-radius:50%;width:60px;height:60px;animation:spin 1s linear infinite;"></div><style>@keyframes spin{0%{transform:rotate(0deg);}100%{transform:rotate(360deg);}}</style>';
+  loader.innerHTML = `
+  <div style="display:flex;flex-direction:column;align-items:center;">
+    <span style="font-size:1.5rem;color:#fff;margin-bottom:16px;">Specified</span>
+    <img src="css/helix.gif" alt="Loading..." style="width:500px;">
+    <span style="font-size:1.5rem;color:#fff;margin-top:16px;">Vesicles</span>
+  </div>
+`;
   document.body.appendChild(loader);
 
   // Ensure loader stays for at least 3 seconds
