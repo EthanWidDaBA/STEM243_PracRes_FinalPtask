@@ -1,10 +1,5 @@
 body {
-    background-image: url('banig_wallpaper.jpg'); /* Set background image */
-    background-size: cover; /* Ensure the image covers the entire background */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-attachment: fixed; /* Keep the background fixed during scrolling */
-    background-position: center; /* Center the image */
-    color: #2e2e2e; /* Dark gray text for better readability */
+    background: #000;
     font-family: "Brush Script MT", cursive; /* Cursive font */
 }
 
@@ -127,4 +122,20 @@ body {
     border-radius: 5px; /* Optional: Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     font-weight: bold; /* Make the description bold */
+}
+
+/* Video background styling */
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+    opacity: 1; /* Adjust for desired darkness/lightness */
+    pointer-events: none; /* Allows clicks through the video */
+    filter: blur(5px);
 }

@@ -17,16 +17,16 @@ document.addEventListener('DOMContentLoaded', function() {
   loader.style.top = 0;
   loader.style.right = 0;
   loader.style.bottom = 0;
-  loader.style.background = '#000';
+  loader.style.background = '#fff';
   loader.style.display = 'flex';
   loader.style.alignItems = 'center';
   loader.style.justifyContent = 'center';
   loader.style.zIndex = 9999;
   loader.innerHTML = `
   <div style="display:flex;flex-direction:column;align-items:center;">
-    <span style="font-size:1.5rem;color:#fff;margin-bottom:16px;">Specified</span>
-    <img src="css/helix.gif" alt="Loading..." style="width:500px;">
-    <span style="font-size:1.5rem;color:#fff;margin-top:16px;">Vesicles</span>
+    <span style="font-size:1.5rem;color:#000;margin-bottom:16px;">Specified</span>
+    <img src="css/cells01.gif" alt="Loading..." style="width:500px;">
+    <span style="font-size:1.5rem;color:#000;margin-top:16px;">Vesicles</span>
   </div>
 `;
   document.body.appendChild(loader);
@@ -44,14 +44,12 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
     </script>
-    <style>
-      body {
-        min-height: 100vh;
-        background: linear-gradient(135deg, #e3f0ff 0%, #f8fbff 100%);
-      }
-    </style>
 </head>
 <body>
+  <video autoplay muted loop id="bg-video">
+    <source src="css/vid-bg1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
     <!-- Banner Section -->
     <div id="bannerCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
