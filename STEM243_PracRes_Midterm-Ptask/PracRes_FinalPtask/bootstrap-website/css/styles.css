@@ -5,7 +5,7 @@ body {
     background-attachment: fixed; /* Keep the background fixed during scrolling */
     background-position: center; /* Center the image */
     color: #2e2e2e; /* Dark gray text for better readability */
-    font-family: "Comic Sans MS", "Brush Script MT", cursive; /* Cursive font */
+    font-family: "Brush Script MT", cursive; /* Cursive font */
 }
 
 /* Banner Section */
