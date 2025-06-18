@@ -1,0 +1,13 @@
+Centrisome - a cellular structure primarily involved in organizing microtubules, which are essential for cell division and other cellular processes. It acts as the main microtubule-organizing center (MTOC) in animal cells. During cell division, the centrosome duplicates and helps form the mitotic spindle, ensuring proper chromosome segregation. 
+
+Chloroplast - a specialized organelle found in plant and algal cells where photosynthesis takes place. It's the site where light energy is captured and converted into chemical energy in the form of sugars, providing the cell with energy. 
+
+Lysosome - membrane-bound organelles found in eukaryotic cells, acting as the cell's "recycling center" and "garbage disposal". They contain a variety of hydrolytic enzymes that break down cellular waste, old cell parts, and foreign substances like bacteria and viruses. This process is crucial for cellular digestion, recycling materials, and even programmed cell death (apoptosis). 
+
+Peroxisome - membrane-bound organelles found in eukaryotic cells. They are involved in various metabolic processes, including lipid metabolism and detoxification, and are particularly known for their role in the production and breakdown of hydrogen peroxide. 
+
+Cilia and Flagella - are both hair-like structures extending from the cell surface, but they differ in length and number. Cilia are short and numerous, while flagella are longer and fewer, often just one or two per cell. Both structures are involved in cell movement and the movement of fluids or materials past the cell. 
+
+Cytoplasm - is the gel-like substance within a cell, enclosed by the cell membrane, that contains all the cell's organelles (except for the nucleus in eukaryotic cells). It's primarily composed of water, salts, and proteins, and it acts as a medium for chemical reactions and provides a platform for the other organelles to function. 
+
+Mitochondria - Mitochondria, often called the "powerhouses of the cell", are organelles responsible for generating most of the cell's energy in the form of ATP through cellular respiration. They are found in virtually all eukaryotic cells and play a crucial role in various cellular processes beyond energy production, including cell signaling and programmed cell death. 
