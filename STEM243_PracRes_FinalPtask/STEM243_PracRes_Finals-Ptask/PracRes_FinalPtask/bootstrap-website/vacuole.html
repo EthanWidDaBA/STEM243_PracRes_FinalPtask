@@ -161,8 +161,7 @@ ul.list-unstyled li a:hover {
 }
 
 .vacuole-info p {
-  margin: 0;
-  text-align: center;
+  text-align: justify;
 }
 
 @media (max-width: 700px) {
@@ -188,7 +187,11 @@ ul.list-unstyled li a:hover {
 
 <body class="special-page p-4">
 
-
+<!-- Background Video -->
+    <video autoplay loop muted playsinline id="bg-video">
+    <source src="css/vid-bg1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 
   <!-- Header with Menu Button -->
   <div class="d-flex justify-content-between align-items-center mb-4">
@@ -201,7 +204,7 @@ ul.list-unstyled li a:hover {
           <line x1="4" x2="20" y1="18" y2="18" />
         </svg>
       </button>
-      <h1 class="fs-3 fw-semibold text-dark">Cell Structures</h1>
+      <h1 class="fs-3 fw-semibold text-bright">Cell Structures</h1>
     </div>
   </div>
 
@@ -248,14 +251,20 @@ ul.list-unstyled li a:hover {
     </div>
     <div class="vacuole-info">
       <p>
-        Info about the vacuole goes here. This is a paragraph describing the function or structure of the vacuole in the cell.
+        A vacuole is a membrane-bound organelle found in various eukaryotic cells, including those of plants, fungi, protists, and some animal and bacterial cells. 
+        Its structure is highly adaptable, lacking a fixed shape or size, and it consists of a fluid-filled sac enclosed by a membrane called the tonoplast. 
+        The fluid within, often referred to as cell sap, contains a diverse array of inorganic and organic molecules, including enzymes. 
+        While generally smaller and more numerous in animal cells, a single, large central vacuole can dominate the volume of a mature plant cell, sometimes occupying over 90% of its interior space.
       </p>
     </div>
   </div>
   <div class="vacuole-row">
     <div class="vacuole-info">
       <p>
-        More information or details about the vacuole can be placed here. This could include its role, importance, or interesting facts.
+        The functions of vacuoles are diverse and critical for cell survival and plant health. 
+        They act as storage compartments for various substances, including water, nutrients (like salts, minerals, proteins, and pigments), and even waste products or potentially harmful compounds, isolating them from the rest of the cytoplasm. 
+        In plant cells, the large central vacuole plays a crucial role in maintaining turgor pressure, which is the internal hydrostatic pressure that pushes the cell membrane against the rigid cell wall, providing structural support and allowing the plant to remain upright. 
+        Vacuoles also contribute to maintaining cellular pH, can participate in the breakdown of macromolecules (similar to lysosomes in animal cells), and in plants, may store chemicals that deter herbivores or attract pollinators.
       </p>
     </div>
     <div class="vacuole-img-box">
@@ -279,6 +288,16 @@ ul.list-unstyled li a:hover {
       sidebar.classList.remove('active');
     });
   </script>
+
+ <!-- Footer Section -->
+    <footer class="card mt-5">
+        <div class="card-body text-center">
+            <p class="card-text">About Us!</p>
+            <p class="card-text">We are Group Fantastik Four from STEM243!</p>
+            <p class="card-text">This website is a project for our Computer Programming subject.</p>
+            <p class="card-text">Made by: Jalmasco, Reyes, Mellevo, and Fallurin!</p>
+        </div>
+    </footer>
 
 </body>
 </html>
