@@ -1,7 +1,7 @@
 body {
     background: #000;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #fff
+    color: #fff;
 }
 
 /* Banner Section */
@@ -62,7 +62,7 @@ body {
 
 .feature-card img {
     width: 100%; /* Make the image span the full width of the card */
-    height: auto; /* Maintain aspect ratio */
+    height: 100%; /* Maintain aspect ratio */
     display: block; /* Ensure no extra spacing below the image */
 }
 
@@ -123,6 +123,14 @@ body {
     border-radius: 5px; /* Optional: Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
     font-weight: bold; /* Make the description bold */
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;      /* or any height you prefer */
+  object-fit: cover;  /* ensures the image covers the area */
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 #bg-video {
