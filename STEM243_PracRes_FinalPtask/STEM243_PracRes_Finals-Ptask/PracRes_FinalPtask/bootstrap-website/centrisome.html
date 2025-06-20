@@ -58,11 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     <style>
-      body {
-  background-color: #121212;
-  color: #e0e0e0;
-}
-
 .special-page {
   padding: 2rem;
   border-radius: 8px;
@@ -125,6 +120,7 @@ ul.list-unstyled li a:hover {
 }
 
 .vacuole-img-box {
+  overflow: hidden;
   flex: 1 1 45%;
   min-width: 150px;
   min-height: 120px;
@@ -137,6 +133,13 @@ ul.list-unstyled li a:hover {
   align-items: center;
   justify-content: center;
   margin-right: 1rem;
+}
+
+.vacuole-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* or use 'contain' to fit entire image */
+  display: block;
 }
 
 .vacuole-row .vacuole-img-box:last-child {
@@ -177,11 +180,6 @@ ul.list-unstyled li a:hover {
   }
 }
 
-/* Make the sidebar lists scrollable */
-.sidebar-lists {
-  overflow-y: auto;
-  max-height: 80vh; /* Adjust as needed for your layout */
-}
     </style>
 </head>
 
@@ -220,26 +218,26 @@ ul.list-unstyled li a:hover {
 
  <!-- sidebar lists -->
     <ul class="list-unstyled mt-5 sidebar-lists">
-      <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
-      <hr class="border-light">
-      <li><a href="vacuole.html" class="text-white text-decoration-none">Vacuoles</a></li>
-      <hr class="border-light">
-      <li><a href="lysosome.html" class="text-white text-decoration-none">Lysosomes</a></li>
-      <hr class="border-light">
-      <li><a href="cilia&flagella.html" class="text-white text-decoration-none">Cilia & Flagella</a></li>
-      <hr class="border-light">
-      <li><a href="cytoplasm.html" class="text-white text-decoration-none">Cytoplasms</a></li>
-      <hr class="border-light">
-      <li><a href="peroxisome.html" class="text-white text-decoration-none">Peroxisome</a></li>
-      <hr class="border-light">
-      <li><a href="centrisome.html" class="text-white text-decoration-none">Centrisome</a></li>
-      <hr class="border-light">
-      <li><a href="chloroplast.html" class="text-white text-decoration-none">Chloroplasts</a></li>
-      <hr class="border-light">
-      <li><a href="mitochondria.html" class="text-white text-decoration-none">Mitochondria</a></li>
-      <hr class="border-light">
-      <li><a href="cytoskeleton.html" class="text-white text-decoration-none">Cytoskeleton</a></li>
-      <hr class="border-light">
+  <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
+  <hr class="border-light">
+  <li><a href="centrisome.html" class="text-white text-decoration-none">Centrisome</a></li>
+  <hr class="border-light">
+  <li><a href="chloroplast.html" class="text-white text-decoration-none">Chloroplasts</a></li>
+  <hr class="border-light">
+  <li><a href="cilia&flagella.html" class="text-white text-decoration-none">Cilia & Flagella</a></li>
+  <hr class="border-light">
+  <li><a href="cytoplasm.html" class="text-white text-decoration-none">Cytoplasms</a></li>
+  <hr class="border-light">
+  <li><a href="cytoskeleton.html" class="text-white text-decoration-none">Cytoskeleton</a></li>
+  <hr class="border-light">
+  <li><a href="lysosome.html" class="text-white text-decoration-none">Lysosomes</a></li>
+  <hr class="border-light">
+  <li><a href="mitochondria.html" class="text-white text-decoration-none">Mitochondria</a></li>
+  <hr class="border-light">
+  <li><a href="peroxisome.html" class="text-white text-decoration-none">Peroxisome</a></li>
+  <hr class="border-light">
+  <li><a href="vacuole.html" class="text-white text-decoration-none">Vacuoles</a></li>
+  <hr class="border-light">
     </ul>
   </div>
 
