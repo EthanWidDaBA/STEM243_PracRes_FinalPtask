@@ -21,10 +21,9 @@ body {
 }
 
 .carousel-item img {
-    width: 815px;
-    height: 315px;
+    width: 100%;
+    aspect-ratio: 851 / 315;
     object-fit: cover; 
-    display: block;
 }
 
 .card {
