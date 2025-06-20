@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chloroplasts</title>
+    <title>Cilia & Flagella</title>
 <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
@@ -58,11 +58,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
     <style>
-      body {
-  background-color: #121212;
-  color: #e0e0e0;
-}
-
 .special-page {
   padding: 2rem;
   border-radius: 8px;
@@ -125,6 +120,7 @@ ul.list-unstyled li a:hover {
 }
 
 .vacuole-img-box {
+  overflow: hidden;
   flex: 1 1 45%;
   min-width: 150px;
   min-height: 120px;
@@ -137,6 +133,13 @@ ul.list-unstyled li a:hover {
   align-items: center;
   justify-content: center;
   margin-right: 1rem;
+}
+
+.vacuole-img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* or use 'contain' to fit entire image */
+  display: block;
 }
 
 .vacuole-row .vacuole-img-box:last-child {
@@ -218,27 +221,27 @@ ul.list-unstyled li a:hover {
       </svg>
     </button>
 
-    <!-- sidebar lists -->
+ <!-- sidebar lists -->
     <ul class="list-unstyled mt-5 sidebar-lists">
-      <li><a href="/STEM243_PracRes_FinalPtask/STEM243_PracRes_Finals-Ptask/PracRes_FinalPtask/bootstrap-website/index.html" class="text-white text-decoration-none">Home</a></li>
+      <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
       <hr class="border-light">
-      <li><a href="/STEM243_PracRes_FinalPtask/STEM243_PracRes_Finals-Ptask/PracRes_FinalPtask/bootstrap-website/vacuole.html" class="text-white text-decoration-none">Vacuoles</a></li>
+      <li><a href="centrosome.html" class="text-white text-decoration-none">Centrosome</a></li>
       <hr class="border-light">
-      <li><a href="/STEM243_PracRes_FinalPtask/STEM243_PracRes_Finals-Ptask/PracRes_FinalPtask/bootstrap-website/lysosome.html" class="text-white text-decoration-none">Lysosomes</a></li>
+      <li><a href="chloroplast.html" class="text-white text-decoration-none">Chloroplasts</a></li>
       <hr class="border-light">
-      <li><a href="/STEM243_PracRes_FinalPtask/STEM243_PracRes_Finals-Ptask/PracRes_FinalPtask/bootstrap-website/cil&flag.html" class="text-white text-decoration-none">Cilia & Flagella</a></li>
+      <li><a href="cilia&flagella.html" class="text-white text-decoration-none">Cilia & Flagella</a></li>
       <hr class="border-light">
-      <li><a href="/STEM243_PracRes_FinalPtask/STEM243_PracRes_Finals-Ptask/PracRes_FinalPtask/bootstrap-website/cyto.html" class="text-white text-decoration-none">Cytoplasms</a></li>
+      <li><a href="cytoplasm.html" class="text-white text-decoration-none">Cytoplasms</a></li>
       <hr class="border-light">
-      <li><a href="/STEM243_PracRes_FinalPtask/STEM243_PracRes_Finals-Ptask/PracRes_FinalPtask/bootstrap-website/pero.html" class="text-white text-decoration-none">Peroxisome</a></li>
+      <li><a href="cytoskeleton.html" class="text-white text-decoration-none">Cytoskeleton</a></li>
       <hr class="border-light">
-      <li><a href="/STEM243_PracRes_FinalPtask/STEM243_PracRes_Finals-Ptask/PracRes_FinalPtask/bootstrap-website/centri.html" class="text-white text-decoration-none">Centrisome</a></li>
+      <li><a href="lysosome.html" class="text-white text-decoration-none">Lysosomes</a></li>
       <hr class="border-light">
-      <li><a href="/STEM243_PracRes_FinalPtask/STEM243_PracRes_Finals-Ptask/PracRes_FinalPtask/bootstrap-website/chloro.html" class="text-white text-decoration-none">Chloroplasts</a></li>
+      <li><a href="mitochondria.html" class="text-white text-decoration-none">Mitochondria</a></li>
       <hr class="border-light">
-      <li><a href="/STEM243_PracRes_FinalPtask/STEM243_PracRes_Finals-Ptask/PracRes_FinalPtask/bootstrap-website/mito.html" class="text-white text-decoration-none">Mitochondria</a></li>
+      <li><a href="peroxisome.html" class="text-white text-decoration-none">Peroxisome</a></li>
       <hr class="border-light">
-      <li><a href="/STEM243_PracRes_FinalPtask/STEM243_PracRes_Finals-Ptask/PracRes_FinalPtask/bootstrap-website/cytoskel.html" class="text-white text-decoration-none">Cytoskeleton</a></li>
+      <li><a href="vacuole.html" class="text-white text-decoration-none">Vacuoles</a></li>
       <hr class="border-light">
     </ul>
   </div>
@@ -246,11 +249,11 @@ ul.list-unstyled li a:hover {
   <div class="vacuole-row">
     <div class="vacuole-img-box">
       <!-- Replace with <img src="..." alt="Vacuole"> if needed -->
-      <img src="/STEM243_PracRes_FinalPtask/STEM243_PracRes_Finals-Ptask/PracRes_FinalPtask/CellStrucPics/Cilia.png" alt="cillia & flagella">
+      <img src="CellStrucPics/Cilia.png" alt="cillia & flagella">
     </div>
     <div class="vacuole-info">
       <p>
-       are both hair-like structures extending from the cell surface, but they differ in length and number. 
+       They are both hair-like structures extending from the cell surface, but they differ in length and number. 
        Cilia are short and numerous, while flagella are longer and fewer, often just one or two per cell. 
        Both structures are involved in cell movement and the movement of fluids or materials past the cell. 
       </p>
@@ -268,7 +271,7 @@ ul.list-unstyled li a:hover {
     </div>
     <div class="vacuole-img-box">
       <!-- Replace with <img src="..." alt="Vacuole"> if needed -->
-       <img src="/STEM243_PracRes_FinalPtask/STEM243_PracRes_Finals-Ptask/PracRes_FinalPtask/CellStrucPics/Cytoplasm 2.png" alt="cillia & flagella">
+       <img src="CellStrucPics/Cytoplasm 2.png" alt="cillia & flagella">
     </div>
   </div>
 </div>
