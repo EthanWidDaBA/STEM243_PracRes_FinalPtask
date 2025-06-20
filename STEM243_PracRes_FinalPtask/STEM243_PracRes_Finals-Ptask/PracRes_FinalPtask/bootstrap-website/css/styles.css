@@ -66,19 +66,6 @@ body {
     display: block; /* Ensure no extra spacing below the image */
 }
 
-/* Specific background images for each card */
-.snacks-card {
-    background-image: url('taho_featurecard.jpg');
-}
-
-.ulam-card {
-    background-image: url('adobo_featurecard.jpg');
-}
-
-.dessert-card {
-    background-image: url('halohalo_featurecard.jpeg'); 
-}
-
 /* Ensure text is readable */
 .feature-card .card-body {
     position: absolute; /* Position the card body absolutely within the feature card */
@@ -86,7 +73,6 @@ body {
     left: 0;
     width: 100%; /* Make it cover the full width of the feature card */
     height: 100%; /* Make it cover the full height of the feature card */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
     padding: 20px;
     border-radius: 10px; /* Optional: Keep the rounded corners */
     display: flex; /* Center the content */
