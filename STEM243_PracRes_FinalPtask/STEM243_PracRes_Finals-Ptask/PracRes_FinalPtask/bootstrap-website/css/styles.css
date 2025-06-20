@@ -40,6 +40,7 @@ body {
 .footer {
     background-color: #f5e8dc; /* Super light brown color */
     color: #2e2e2e; /* Dark gray text for contrast */
+    font-family: "Zen Dots", sans-serif;
     text-align: center;
     padding: 20px 0;
     border-top: 2px solid #d2b48c; /* Optional: Add a subtle border to complement the lighter brown */
