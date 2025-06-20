@@ -19,10 +19,11 @@ body {
     /* Optional: Add a background color for the padding area */
 }
 
-.carousel-inner img {
-    width: 1600px;
-    height: 350px;
-    object-fit: auto; /* Ensures the image scales properly without distortion */
+.carousel-item img {
+    width: 815px;
+    height: 315px;
+    object-fit: cover; 
+    display: block;
 }
 
 .card {
