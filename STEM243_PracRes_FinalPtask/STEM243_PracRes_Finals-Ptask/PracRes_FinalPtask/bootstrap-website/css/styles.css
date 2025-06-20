@@ -30,6 +30,7 @@ body {
     background-color: #ffffff; /* White background for cards */
     border: 1px solid #dee2e6; /* Light border for subtle separation */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    font-family: "Zen Dots", sans-serif;
 }
 
 .card-title {
